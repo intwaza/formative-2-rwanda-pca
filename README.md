@@ -1,4 +1,4 @@
-# Formative 2 – PCA on Rwanda's Seasonal Agricultural Survey (2024 Season B)
+# Formative 2 PCA on Rwanda's Seasonal Agricultural Survey (2024 Season B)
 
 PCA implemented from scratch (numpy + matplotlib only) on plot-level agricultural practice data
 from the National Institute of Statistics of Rwanda (NISR).
