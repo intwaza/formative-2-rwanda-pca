@@ -1,0 +1,54 @@
+column_name,data_type,description
+id,INT,Row ID
+Segment_ID,INT,Segment identifier
+s1q1,VARCHAR,Province Name
+s1q2,VARCHAR,District Name
+s1q3,VARCHAR,Stratum classification
+s1q4,SMALLINT,Identification number of the segment or large-scale farmer (LSF)
+s1q6,SMALLINT,Unique identification number of the farmer or large-scale farmer
+s1q7,VARCHAR,Category of farmer (small-scale farmer or large-scale farmer)
+s1q8,VARCHAR,Gender
+s1q9,DOUBLE,Age
+s1q14,VARCHAR,Indicates whether the farmer personally responded to the interview
+s1q17,VARCHAR,Relationship of the respondent to the farmer
+s1q17_o,VARCHAR,Other specified relationship of the respondent to the farmer
+s2q1,SMALLINT,Plot number
+s2q2,DOUBLE,Plot area (m2)
+s2q2_ha,DOUBLE,Plot area (ha)
+s4q1,VARCHAR,Degree of soil erosion observed on the plot
+s4q2,VARCHAR,Indicates whether anti-erosion activities exist on any of the farmer's plots
+s4q3,VARCHAR,Indicates whether anti-erosion activities exist on this specific plot
+s4q4,VARCHAR,Indicates whether anti-erosion activities were implemented during the current season
+s4q5,DOUBLE,Total cost incurred for anti-erosion activities during the season (RWF)
+s4q6,VARCHAR,Indicates whether the plot is located in a land consolidation site during the season
+s4q7_1,VARCHAR,First type of benefit received from the land consolidation program
+s4q7_2,VARCHAR,Second type of benefit received from the land consolidation program
+s4q7_3,VARCHAR,Third type of benefit received from the land consolidation program
+s4q7_4,VARCHAR,Fourth type of benefit received from the land consolidation program
+s4q8,VARCHAR,Indicates whether mechanical equipment was used in any agricultural activity on any plot
+s4q9,VARCHAR,Indicates whether mechanical equipment was used on this specific plot
+s4q10_1,VARCHAR,Whether ploughing animals (oxen) were used on this plot
+s4q10_3,TEXT,Amount paid for ploughing animals during the season (RWF)
+s4q11_1,VARCHAR,Whether a ploughing tractor was used on this plot
+s4q11_2_1,VARCHAR,Stage 1 at which ploughing tractor was used
+s4q11_2_2,VARCHAR,Stage 2 at which ploughing tractor was used
+s4q11_2_3,VARCHAR,Stage 3 at which ploughing tractor was used
+s4q11_2_4,VARCHAR,Stage 4 at which ploughing tractor was used
+s4q11_2_5,VARCHAR,Stage 5 at which ploughing tractor was used
+s4q11_3,DOUBLE,Amount paid for ploughing tractor use during the season (RWF)
+s4q12_1,VARCHAR,Whether any other mechanical equipment was used on this plot
+s4q12_3,VARCHAR,Name or type of other mechanical equipment used
+s4q12_4,DOUBLE,Amount paid for other mechanical equipment use (RWF)
+s4q13,DOUBLE,Amount spent on hired labor for land preparation sowing and other agricultural activities (RWF)
+s4q14,VARCHAR,Whether irrigation was practiced on any plot during the season
+s4q15,VARCHAR,Whether this specific plot was irrigated during the season
+s4q16,VARCHAR,Irrigation technique used on this plot e.g. drip sprinkler flood
+s4q17_1,VARCHAR,Primary water source used for irrigation
+s4q17_2,VARCHAR,Secondary water source used for irrigation
+s4q17_3,VARCHAR,Tertiary water source used for irrigation
+s4q18_1,VARCHAR,First irrigation tool used
+s4q18_2,VARCHAR,Second irrigation tool used
+s4q18_3,VARCHAR,Third irrigation tool used
+s4q18_4,VARCHAR,Fourth irrigation tool used
+s4q19,DOUBLE,Total cost spent on irrigation activities (RWF)
+plot_weight,DOUBLE,Statistical plot weight for deriving nationally representative estimates
